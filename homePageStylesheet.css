@@ -1,0 +1,33 @@
+/* CSS for HomePage HTML file */
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: beige;
+    min-width: 100%;
+}
+
+.container-fluid{
+    min-width: 100%;
+}
+
+.top-banner{
+    background-color: aqua;
+}
+
+.nav-bar{
+    background-color: blue;
+}
+
+.main-section{
+    background-color: blueviolet;
+}
+
+.footer{
+    background-color: coral;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
