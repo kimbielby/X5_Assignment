@@ -23,12 +23,11 @@ body{
 }
 .main-row{
     height: 100%;
-
 }
 
 .col-10{
-    background-color: lightgray;
-    margin: 1% 5%;
+    background-color: burlywood;
+    margin: 1% 5% ;
     border-style: solid;
     border-width: thick;
     border-color: black;
@@ -38,5 +37,4 @@ body{
 .footer{
     background-color: coral;
     width: 100%;
-    /* bottom: 0; */
 }
