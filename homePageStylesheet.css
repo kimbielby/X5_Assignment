@@ -7,14 +7,24 @@ html{
 body{
     background-color: beige;
     min-width: 100%;
+    min-height: inherit;
 }
 
 .top-banner{
     background-color: aqua;
 }
 
-.nav-bar{
-    background-color: blue;
+.navRow{
+    justify-content: inherit;
+}
+nav{
+    width: 100%;
+}
+.homeItem{
+    float: left;
+}
+.form-inline{
+    float: right;
 }
 
 .main-section{
@@ -24,7 +34,6 @@ body{
 .main-row{
     height: 100%;
 }
-
 .col-10{
     background-color: burlywood;
     margin: 1% 5% ;
