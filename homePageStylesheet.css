@@ -11,6 +11,10 @@ body{
     font-family: "Verdana", Tahoma, sans-serif;
 }
 
+.btn{
+    cursor: pointer;
+}
+
 .top-banner{
     background-color: darksalmon;
 }

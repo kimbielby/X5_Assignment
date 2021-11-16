@@ -11,6 +11,10 @@ body{
     font-family: "Verdana", Tahoma, sans-serif;
 }
 
+.btn{
+    cursor: pointer;
+}
+
 .top-banner{
     background-color: darksalmon;
 }
@@ -61,7 +65,10 @@ nav{
     font-family: inherit;
     width: available;
 }
-.checkBoxes{
+.mediaRow{
+    float: right;
+}
+.image1{
 
 }
 
