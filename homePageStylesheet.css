@@ -8,20 +8,19 @@ body{
     background-color: beige;
     min-width: 100%;
     min-height: inherit;
+    font-family: "Verdana", Tahoma, sans-serif;
 }
 
 .top-banner{
-    background-color: aqua;
+    background-color: darksalmon;
 }
 
 .navRow{
     justify-content: inherit;
+    background-color: cornflowerblue;
 }
 nav{
     width: 100%;
-}
-.homeItem{
-    float: left;
 }
 .form-inline{
     float: right;
@@ -41,6 +40,13 @@ nav{
     border-width: thick;
     border-color: black;
     height: 100vh;
+}
+.form-check-label{
+    font-size: 200%;
+    font-family: inherit;
+}
+.form-check-input{
+
 }
 
 .footer{

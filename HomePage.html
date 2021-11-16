@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="Author" content="2721133">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="homePageStylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,37 +15,53 @@
         <div class="top-banner">
             <div class="row">
                 <div class="col">
-                    <h1> This is the top banner</h1></div>
+                    <h1> Computer Help</h1>
+                    <p>Helping you search the internet and use Microsoft Office software in a step by step and easy to understand way</p>
+                </div>
             </div>
         </div>
         <div class="row navRow">
-            <nav>
-                <a href="#" class=" btn btn-home" role="button"> Home </a>
-                <a href="#" class=" btn btn-office" role="button">Office</a>
-                <a href="#" class="btn btn-intSearch" role="button">Internet Search</a>
-                <a href="#" class="btn btn-other" role="button">Other</a>
+            <nav class="navbar-expand-md">
+                <a href="#" class=" btn btn-home btn-dark" role="button"> Home </a>
+                <a href="#" class=" btn btn-office btn-dark" role="button">Microsoft Office</a>
+                <a href="#" class="btn btn-intSearch btn-dark" role="button">Internet Search</a>
+                <a href="#" class="btn btn-logSign btn-dark" role="button">Login/Sign Up</a>
                 <form class="form-inline " action="#">
                     <label>
                         <input class="form-control mr-sm-2" type="text" placeholder="Search this Website">
                     </label>
-                    <button class="btn subButt" type="submit">Search</button>
+                    <button class="btn subButt btn-dark" type="submit">Search</button>
                 </form>
             </nav>
         </div>
-
         <div class="main-section">
             <div class="row"> <!-- Row for the whole main section -->
                 <div class="col"> <!-- Column for the whole main section -->
                     <div class="row main-row">
                         <div id="main-area" class="col-10 d-flex justify-content-center">
-                            <h1>This is the main section</h1>
+                            <h4>Please select the format that you would like to see your search results in:</h4>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" value="">Audio
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" value="">Video
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" value="">Image
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="footer">
-            <h1> This is the footer</h1>
+            <h4> This is the footer</h4>
         </div>
 </body>
 </html>
